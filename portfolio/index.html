@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" type="image/icon" href="./source/favicon.ico">
+
+	<!-- font-family: 'Merriweather', serif; -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+	<!-- font-family: 'Inter', sans-serif; -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+	<title>Portfolio</title>
+</head>
+
+<body class="wrapper">
+	<header class="header fullscreen">
+		<section class="header__hero container">
+			<div class="header__top">
+				<div class="header__top-logo">
+					<a href="#" class="header__logo-link">
+						<img src="./source/logo/header_photocam_logo.svg" alt="photo logo" class="header__logo-svg">
+					</a>
+				</div>
+				<nav class="header__nav">
+					<ul class="header__menu">
+						<li class="header__item"><a href="#skills" data-lang="skills" class="header__link">Skills</a></li>
+						<li class="header__item"><a href="#portfolio" class="header__link" data-lang="portfolio">Portfolio</a>
+						</li>
+						<li class="header__item"><a href="#video" class="header__link" data-lang="video">Video</a></li>
+						<li class="header__item"><a href="#price" class="header__link" data-lang="price">Price</a></li>
+						<li class="header__item"><a href="#contacts" class="header__link" data-lang="contacts">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__switch-lang">
+					<a href="#" class="header__lang lang-btn-en">en</a>
+					<span>/</span>
+					<a href="#" class="header__lang lang-btn-ru">ru</a>
+				</div>
+				<div class="switch-theme"></div>
+				<div class="header__burger">
+					<span class="burger-line"></span>
+				</div>
+			</div>
+			<div class="hero__text">
+				<h1 class="hero_h1" data-lang="hero-title">Alexa Rise</h1>
+				<p class="hero__title" data-lang="hero-text">
+					Save sincere emotions, romantic feelings and happy moments of life together with professional
+					photographer Alexa Rise
+				</p>
+				<button class="hero__btn btn-solid" data-lang="hire">Hire me</button>
+			</div>
+		</section>
+	</header>
+	<main class="main">
+		<section class="container skills" id="skills">
+			<div class="title-box">
+				<h2 class="section-title" data-lang="skills">Skills</h2>
+			</div>
+			<div class="skills__row">
+				<div class="skills__item">
+					<img src="./source/logo/skills_cam_logo.svg" alt="logo photography" class="skills__logo" width="62">
+					<h3 class="skills__subtitle" data-lang="skill-title-1">Digital photography</h3>
+					<p class="skills__text" data-lang="skill-text-1">High-quality photos in the studio and on the nature</p>
+				</div>
+				<div class="skills__item">
+					<img src="./source/logo/skills_video_logo.svg" alt="logo video" width="60" class="skills__logo">
+					<h3 class="skills__subtitle" data-lang="skill-title-2">Video shooting</h3>
+					<p class="skills__text" data-lang="skill-text-2">Capture your moments so that they always stay with you
+					</p>
+				</div>
+				<div class="skills__item">
+					<img src="./source/logo/skills_image_logo.svg" alt="logo photography" class="skills__logo" width="66">
+					<h3 class="skills__subtitle" data-lang="skill-title-3">Retouch</h3>
+					<p class="skills__text" data-lang="skill-text-3">I strive to make photography surpass reality</p>
+				</div>
+				<div class="skills__item">
+					<img src="./source/logo/skills_mic_logo.svg" alt="logo photography" class="skills__logo" height="50">
+					<h3 class="skills__subtitle" data-lang="skill-title-4">Audio</h3>
+					<p class="skills__text" data-lang="skill-text-4">Professional sounds recording for video, advertising,
+						portfolio</p>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio" class="container portfolio">
+			<div class="title-box">
+				<h2 class="section-title portfolio_h2" data-lang="portfolio">Portfolio</h2>
+			</div>
+			<div class="portfolio__btn-row">
+				<button class="portfolio__btn-item" value="winter" data-lang="winter">Winter</button>
+				<button class="portfolio__btn-item" value="spring" data-lang="spring">Spring</button>
+				<button class="portfolio__btn-item" value="summer" data-lang="summer">Summer</button>
+				<button class="portfolio__btn-item active" value="autumn" data-lang="autumn">Autumn</button>
+			</div>
+			<div class="portfolio__gallery gallery">
+				<div class="gallery__row">
+					<div class="portfolio__galery-item">
+						<img src="./source/img/autumn/1.jpg" alt="portfolio picture" class="gallery-picture" width="450"
+							height="560">
+					</div>
+					<div class="portfolio__galery-item">
+						<img src="./source/img/autumn/2.jpg" alt="portfolio picture" class="gallery-picture" width="450"
+							height="560">
+					</div>
+					<div class="portfolio__galery-item">
+						<img src="./source/img/autumn/3.jpg" alt="portfolio picture" class="gallery-picture" width="450"
+							height="560">
+					</div>
+				</div>
+				<div class="gallery__row">
+					<div class="portfolio__galery-item">
+						<img src="./source/img/autumn/4.jpg" alt="portfolio picture" class="gallery-picture" width="450"
+							height="560">
+					</div>
+					<div class="portfolio__galery-item">
+						<img src="./source/img/autumn/5.jpg" alt="portfolio picture" class="gallery-picture" width="450"
+							height="560">
+					</div>
+					<div class="portfolio__galery-item">
+						<img src="./source/img/autumn/6.jpg" alt="portfolio picture" class="gallery-picture" width="450"
+							height="560">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="video" class="container video">
+			<div class="title-box video__h2">
+				<h2 class="section-title " data-lang="video">Video</h2>
+			</div>
+			<div class="video__player">
+				<img src="./source/img/video-player-img.jpg" alt="video player picture" class="video__picture" width="1400"
+					height="705">
+				<button class="video__btn"></button>
+			</div>
+		</section>
+		<section id="price" class="container price">
+			<div class="title-box">
+				<h2 class="section-title" data-lang="price">Price</h2>
+			</div>
+			<div class="price__row">
+				<div class="price__item">
+					<h3 class="price__title">Standard</h3>
+					<p class="price__sum">500 $</p>
+					<p class="price__subtitle">
+						<span data-lang="price-description-1-span-1">One location</span><br>
+						<span data-lang="price-description-1-span-2">120 photos in color </span><br>
+						<span data-lang="price-description-1-span-3">12 photos in retouch</span><br>
+						<span data-lang="price-description-1-span-4">Readiness 2-3 weeks </span><br>
+						<span data-lang="price-description-1-span-5">Make up, visage</span>
+					</p>
+					<button class="price_btn btn-solid" data-lang="order">Order shooting</button>
+				</div>
+				<div class="price__item">
+					<h3 class="price__title">Premium</h3>
+					<p class="price__sum">700 $</p>
+					<p class="price__subtitle">
+						<span data-lang="price-description-2-span-1">One or two locations</span><br>
+						<span data-lang="price-description-2-span-2">200 photos in color </span><br>
+						<span data-lang="price-description-2-span-3">20 photos in retouch</span><br>
+						<span data-lang="price-description-2-span-4">Readiness 1-2 weeks </span><br>
+						<span data-lang="price-description-2-span-5">Make up, visage</span>
+					</p>
+					<button class="price_btn btn-solid" data-lang="order">Order shooting</button>
+				</div>
+				<div class="price__item">
+					<h3 class="price__title">Gold</h3>
+					<p class="price__sum">1000 $</p>
+					<p class="price__subtitle">
+						<span data-lang="price-description-3-span-1">Three locations or more</span><br>
+						<span data-lang="price-description-3-span-2">300 photos in color </span><br>
+						<span data-lang="price-description-3-span-3">50 photos in retouch</span><br>
+						<span data-lang="price-description-3-span-4">Readiness 1 week</span><br>
+						<span data-lang="price-description-3-span-5">Make up, visage, hairstyle</span>
+					</p>
+					<button class="price_btn btn-solid" data-lang="order">Order shooting</button>
+				</div>
+			</div>
+		</section>
+		<section id="contacts" class="container contact">
+			<form action="#" class="contact__form">
+				<h2 class="contact__title" data-lang="contact-me">Contact me</h2>
+				<input type="email" name="user email" class="contact__input" placeholder="E-mail" data-lang="e-mail">
+				<input type="tel" name="user phone" class="contact__input" placeholder="Phone" data-lang="phone">
+				<textarea name="message" placeholder="Message" class="contact__textarea" data-lang="message"></textarea>
+				<button class="btn-solid contact__btn" data-lang="send-message">Send message</button>
+			</form>
+		</section>
+	</main>
+	<footer class="footer container">
+		<div class="footer__leftside">
+			<span>©</span>
+			<span class="footer__leftside_year">2022</span>
+			<a href="https://github.com/AKMav" class="footer__link" target="_blank">github</a>
+		</div>
+		<div class="footer__center">
+			<a href="https://rs.school/js-stage0/" class="footer__link" target="_blank">Rolling Scopes School</a>
+		</div>
+		<div class="footer__social">
+			<ul class="footer__list">
+				<li class="footer__social_item"><a href="#" class="footer_social-link"><img
+							src="./source/logo/footer-logo-inst.svg" alt="link us instagram"></a></li>
+				<li class="footer__social_item"><a href="#" class="footer_social-link"><img
+							src="./source/logo/footer-logo-fb.svg" alt="link us facebook"></a></li>
+				<li class="footer__social_item"><a href="#" class="footer_social-link"><img
+							src="./source/logo/footer-logo-tw.svg" alt="tweet us"></a></li>
+				<li class="footer__social_item"><a href="#" class="footer_social-link"><img
+							src="./source/logo/footer-logo-pint.svg" alt="our pinterest"></a></li>
+			</ul>
+		</div>
+	</footer>
+	<script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
